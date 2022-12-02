@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,10 +7,6 @@
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="Input\sample.txt" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
@@ -27,10 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AoC_2022\AoC_2022.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Input\" />
   </ItemGroup>
 
 </Project>
