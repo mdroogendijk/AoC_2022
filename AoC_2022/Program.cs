@@ -5,12 +5,13 @@
         public static void Main()
         {
             // Day selector
-            int day = 1;
+            int day = 2;
 
             // Solutions to run for selected day
             var resultSet = day switch
             {
                 1 => DayOne.Program.Main(),
+                2 => DayTwo.Program.Main(),
                 _ => new List<string>()
             };
 
