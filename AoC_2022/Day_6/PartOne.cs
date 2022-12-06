@@ -1,5 +1,3 @@
-using System.Text;
-
 namespace AdventOfCode.DaySix
 {
     public class PartOne
@@ -10,7 +8,6 @@ namespace AdventOfCode.DaySix
             var marker = new Queue<int>();
             int markerSize = 4;
 
-            //var line = File.ReadLines(fileName).First();
             using FileStream fs = File.OpenRead(fileName);
 
             while (true)
